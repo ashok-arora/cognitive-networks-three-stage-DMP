@@ -102,11 +102,6 @@ def run_algorithm(C, U, H, gamma, epsilon, file_, three_stage=False):
 
 if __name__ == "__main__":
     np.random.seed(30)
-    # for i in [1, 2]:
-    #     for j in [2, 4]:
-    #         run_algorithm(
-    #         C=8, U=j, H=2000, gamma=0.85, epsilon=0.7, file_=f"./data/cogn-input-case{i}.csv"
-    #     )
     run_algorithm(
-                C=8, U=1, H=2000, gamma=0.85, epsilon=0.7, file_=f"./data/cogn-input-case1.csv"
+                C=8, U=2, H=2000, gamma=0.85, epsilon=0.7, file_=f"./data/cogn-input-case1.csv"
     )
